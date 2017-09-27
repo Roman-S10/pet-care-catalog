@@ -1,0 +1,199 @@
+@charset "UTF-8";
+
+// Colors
+@import "../../node_modules/materialize-css/sass/components/color";
+
+// Variables;
+@import "../../node_modules/materialize-css/sass/components/variables";
+
+// Reset
+@import "../../node_modules/materialize-css/sass/components/normalize";
+
+// components
+@import "../../node_modules/materialize-css/sass/components/global";
+//@import "../../node_modules/materialize-css/sass/components/badges";
+@import "../../node_modules/materialize-css/sass/components/icons-material-design";
+@import "../../node_modules/materialize-css/sass/components/grid";
+@import "../../node_modules/materialize-css/sass/components/navbar";
+@import "../../node_modules/materialize-css/sass/components/roboto";
+@import "../../node_modules/materialize-css/sass/components/typography";
+@import "../../node_modules/materialize-css/sass/components/transitions";
+@import "../../node_modules/materialize-css/sass/components/cards";
+//@import "../../node_modules/materialize-css/sass/components/toast";
+//@import "../../node_modules/materialize-css/sass/components/tabs";
+//@import "../../node_modules/materialize-css/sass/components/tooltip";
+@import "../../node_modules/materialize-css/sass/components/buttons";
+@import "../../node_modules/materialize-css/sass/components/dropdown";
+@import "../../node_modules/materialize-css/sass/components/waves";
+@import "../../node_modules/materialize-css/sass/components/modal";
+//@import "../../node_modules/materialize-css/sass/components/collapsible";
+//@import "../../node_modules/materialize-css/sass/components/chips";
+@import "../../node_modules/materialize-css/sass/components/materialbox";
+@import "../../node_modules/materialize-css/sass/components/forms/forms";
+//@import "../../node_modules/materialize-css/sass/components/table_of_contents";
+@import "../../node_modules/materialize-css/sass/components/sideNav";
+//@import "../../node_modules/materialize-css/sass/components/preloader";
+@import "../../node_modules/materialize-css/sass/components/slider";
+//@import "../../node_modules/materialize-css/sass/components/carousel";
+//@import "../../node_modules/materialize-css/sass/components/tapTarget";
+//@import "../../node_modules/materialize-css/sass/components/pulse";
+@import "../../node_modules/materialize-css/sass/components/date_picker/default";
+@import "../../node_modules/materialize-css/sass/components/date_picker/default.date";
+//@import "../../node_modules/materialize-css/sass/components/date_picker/default.time";
+
+nav {
+  ul a {
+    color: #444;
+  }
+
+  .brand-logo{
+    padding-top: 10px;
+
+    img{
+      width: 210px;
+    }
+  }
+
+  .button-collapse {
+    color: #a057d8;
+  }
+}
+
+$secondary-color: #4E2A84;
+
+.page-footer,
+.btn {
+  background-color: #4E2A84;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+  background-color: #7b45cc;
+}
+
+.slider .indicators .indicator-item.active {
+  background-color: #a057d8;
+}
+
+.parallax-container {
+  min-height: 380px;
+  height: auto;
+}
+
+.benefits{
+  padding: 1.78rem 0;
+  background-color: #E4E0EE;
+}
+
+.services{
+  padding: 1.78rem 0;
+}
+
+.modal.bottom-sheet{
+  min-height: 70%;
+}
+
+.benefits h4,
+.services h4,
+.modal h4,
+.benefits-list li i,
+.product-title,
+.card p.product-price,
+.contacts-form h5,
+.contacts-form a{
+  color: #4E2A84;
+}
+
+.services-margin-top{
+  margin-top: 1.14rem;
+}
+
+.row {
+  .padding-0{
+    padding: 0;
+  }
+}
+
+.margin-t50-b70 {
+  margin: 50px 0 70px 0;
+}
+
+.margin-b0{
+  margin-bottom: 0;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+
+  .col{
+    display: flex;
+  }
+}
+
+.card {
+  .padding-t0{
+    padding-top: 0;
+  }
+}
+
+.product-price{
+  font-size: 18px;
+  font-weight: 500;
+  text-align: right;
+}
+
+.input-field .prefix.active {
+  color: #4E2A84;
+}
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #4E2A84;
+  box-shadow: 0 1px 0 0 #4E2A84; }
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus:not([readonly]) + label,
+input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+input[type=url]:not(.browser-default):focus:not([readonly]) + label,
+input[type=time]:not(.browser-default):focus:not([readonly]) + label,
+input[type=date]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label,
+input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
+input[type=number]:not(.browser-default):focus:not([readonly]) + label,
+input[type=search]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label,
+.picker__close,
+.picker__today,
+.picker__clear,
+.picker__day.picker__day--today{
+  color: #4E2A84;
+}
+
+.dropdown-content li > span{
+  color: #4E2A84;
+}
+
+[type="checkbox"]:checked + label:before {
+  border-right: 2px solid #4E2A84;
+  border-bottom: 2px solid #4E2A84;
+}
+
+.picker__date-display,
+.picker__day--selected,
+.picker--focused .picker__day--selected {
+  background-color: #4E2A84;
+}
